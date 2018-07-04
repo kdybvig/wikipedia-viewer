@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+#wikiViewer {
+  font-family: "Shrikhand", cursive, sans-serif;
+  font-size: calc(40px + 1.5vw);
+  margin: 50px 0;
+}
+
+h6 {
+  margin-top: 25px;
+}
+
+#randomArticle {
+  display: inline-block;
+  margin: 25px;
+  padding: 8px 12px;
+
+  background-color: #FFF;
+  border: 5px solid #959;
+  border-radius: 16px;
+
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#searchFor {
+  margin-top: 10px;
+  line-height: 24px;
+  background-color: #333333;
+  color: #CCC;
+  border: 1px solid white;
+}
+
+#search {
+  position: relative;
+  top: 2px;
+  background-color: #555;
+  padding: 4px;
+  margin-left:0;
+  color: #6BF;
+  border: outset 2px white;
+}
+
+#searchResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 400px;
+  min-width: 200px;
+  max-width: 80%;
+  height: auto;
+  min-height: 150px;
+  margin: 15px 15px;
+  padding: 0 10px 20px 10px;
+
+  background-color: #DDB;
+  border: 3px outset #DDB;
+
+  text-align: left;
+  color:black;
+}
+
+#searchResults a {
+  margin-top: auto;
+  text-align: left;
+  color: #C70;
+}
+
+#searchResults a:visited {
+  color: #830;
+}
+
+#error {
+  color: white;
+}
